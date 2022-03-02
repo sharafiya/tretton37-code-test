@@ -27,9 +27,12 @@ Provided seperate option for sorting by office and name
 
 I deployed to netlify
 
+you can find it on https://tretton37test.netlify.app/
+
 ### Use Typescript
 
 Used Typescript
+
 
 ### Running the application
 Installing the packages :
