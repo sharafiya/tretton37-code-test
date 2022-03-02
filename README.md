@@ -9,15 +9,15 @@ It's important to make sure most of the people can use your website wthout any d
 
 ### Use modern CSS throughout the application
 
-I used material UI for styling
+I used material UI  beacause it provides customizable libraries for components
 
 ### Responsive design, works on desktop and tablets
 
-I made sure the page is responsive
+I made sure the page is responsive. Responsiveness is the one feature no web page should skip
 
 ### Filter by name and office
 
-Provided seperate option for filtering by office and name
+Provided seperate option for filtering by office and name for user convenience to find an employee
 
 ### sort by name and office
 
@@ -31,7 +31,7 @@ you can find it on https://tretton37test.netlify.app/
 
 ### Use Typescript
 
-Used Typescript
+Used Typescript for better reading and debugging.
 
 
 ### Running the application
