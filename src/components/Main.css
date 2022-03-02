@@ -1,0 +1,110 @@
+
+#cards{
+    margin-top: 3em;
+    place-content: center;
+    margin-inline: 0 auto;
+  }
+  #cards .fields{
+    background: #558155d4;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 0px;
+  }
+  #cards button{
+    background: gray;
+    font-size: large;
+    border: none;
+    height: 30px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  #cards .input{
+    margin-top: 10px;
+    height: 30px;
+      outline: none;
+      border-radius: 20px;
+      border: none;
+      background: white;
+      color: black;
+      padding-bottom: 2;
+      border-radius: 30px;
+      padding-left: 3px;
+      font-size: smaller;
+  }
+  #cards .css-1480iag-MuiInputBase-root-MuiInput-root::before, .css-1wt0ykv::before{
+     border-bottom: none;
+  }
+  #cards .css-1480iag-MuiInputBase-root-MuiInput-root::after, .css-1wt0ykv::after{
+    border-bottom: none;
+  }
+  #cards select{
+      height: 30px;
+      width: 50%;
+      border-radius: 30px;
+      border: none;
+      margin-top: 10px;
+  }
+  #cards img{
+    height: 270px;
+      object-fit: fill;
+  }
+  .card{
+    box-shadow: inset 0px 33px 25px 0 #000, inset 0 66px 15px 0px #ccc, inset 0 99px 5px 0px #fff;
+    border: 2px solid gainsboro;
+  }
+  #cards .content{
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: aliceblue;
+    background: cadetblue;
+  }
+  #cards .content p .name{
+    font-size: 20px;
+      font-weight: bold;
+  }
+  #icons{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  .icon{
+    font-size: 24px;
+      margin-left: 20px;
+      cursor: pointer;
+  }
+  #cards .links{
+    place-content: center;
+  }
+  #cards a{
+    text-decoration: none;
+    color: #000;
+  }
+  @media (max-width:450px) {
+    #cards{
+      margin-top: -3em;
+    }
+    #cards .fields{
+      background: #558155d4;
+      padding-bottom: 10px;
+      border-radius: 0px;
+    }
+    #cards .input{
+      height: 30px;
+        outline: none;
+        border-radius: 20px;
+        border: none;
+    }
+    #cards .input+.icon{
+      margin-bottom: -8px;
+      margin-left: 3px;
+      color: floralwhite;}
+    #cards select{
+      margin-left: 10px;
+        height: 30px;
+        width: 70%;
+        border-radius: 30px;
+        border: none;
+    }
+  }
